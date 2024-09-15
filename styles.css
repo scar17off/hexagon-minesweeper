@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+#controls {
+    margin-bottom: 20px;
+}
+
+#game-board {
+    border: 1px solid #000;
+}
+
+label {
+    margin-right: 10px;
+}
+
+input[type="range"] {
+    width: 200px;
+}
+
+button {
+    margin-left: 10px;
+}

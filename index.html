@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hexagon Minesweeper</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="controls">
+        <label for="width-slider">Width: <span id="width-value"></span></label>
+        <input type="range" id="width-slider" min="3" max="20" value="7">
+        <label for="height-slider">Height: <span id="height-value"></span></label>
+        <input type="range" id="height-slider" min="3" max="20" value="7">
+        <button id="new-game">New Game</button>
+    </div>
+    <canvas id="game-board"></canvas>
+    <script src="script.js"></script>
+</body>
+</html>
